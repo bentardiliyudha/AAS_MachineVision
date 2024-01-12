@@ -18,7 +18,7 @@ def extract_hog_features(images):
         hog_features.append(fd)
     return np.array(hog_features)
 
-# Ekstraksi fitur HOG untuk data latih dan uji
+# Ekstraksi fitur HOG untuk diolah 
 X_train_hog = extract_hog_features(train_images)
 X_test_hog = extract_hog_features(test_images)
 
